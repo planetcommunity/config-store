@@ -1,0 +1,27 @@
+spring:
+  profiles: local
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/planet_web_registration
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  mail:
+    host: smtp.gmail.com
+    username: lakmaldasun2011@gmail.com
+    password:
+    port: 587
+    properties:
+      mail:
+        debug: true
+        transport:
+          protocol: smtp
+        smtp:
+          starttls:
+            enable: true
+          timeout: 5000
+          auth: true
+server:
+  port: 9000
