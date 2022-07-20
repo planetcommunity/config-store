@@ -28,3 +28,6 @@ server:
 planet:
   mail:
     sender:
+    senderName:
+    subject:
+  context:
