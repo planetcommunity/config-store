@@ -18,7 +18,6 @@ spring:
       hibernate:
         show_sql: true
         format_sql: true
-  config:    import: optional:configserver:http://localhost:8888
         
         
 eureka:
