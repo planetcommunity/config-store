@@ -1,3 +1,11 @@
+spring:
+  config:
+    enabled: true
+    import: optional:configserver:http://localhost:8091
+  application:
+    name: gateway
+  profiles:
+    active: local
 server:
   port: 8072      
 eureka:
@@ -8,5 +16,10 @@ eureka:
          defaultZone: http://localhost:8761/eureka
       instance:
       preferIpAddress: true
+info:
+  app:
+    name: GatewayServer
+    description: Planet Web Gateway Server
+    version: 1.0.0
 
 
