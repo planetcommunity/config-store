@@ -3,6 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/config-store.iml" filepath="$PROJECT_DIR$/.idea/config-store.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../config-server-microservice/configServer.iml" filepath="$PROJECT_DIR$/../config-server-microservice/configServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gateway/gateway/gateway.iml" filepath="$PROJECT_DIR$/../gateway/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../service-discovery-microservice/planet-discovery-service.iml" filepath="$PROJECT_DIR$/../service-discovery-microservice/planet-discovery-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../registration-service/registration-service.iml" filepath="$PROJECT_DIR$/../registration-service/registration-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../statistics-service/statistics-service.iml" filepath="$PROJECT_DIR$/../statistics-service/statistics-service.iml" />
     </modules>
   </component>
 </project>
