@@ -1,5 +1,3 @@
 spring:
   application:
-    name: registration-service
-  profiles:
-    active: local
+    name: planetweb-registration-service
