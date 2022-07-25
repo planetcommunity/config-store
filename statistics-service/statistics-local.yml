@@ -1,12 +1,6 @@
 server:
   port: 8083
 spring:
-  profiles:
-    active: local
-  application:
-    name: statistics
-  config:
-    import: optional:configserver:http://localhost:8091
   datasource:
     url: jdbc:mysql://localhost:3306/statistics_db?createDatabaseIfNotExist=true
     username: root
