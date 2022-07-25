@@ -1,11 +1,4 @@
 spring:
-  config:
-    enabled: true
-    import: optional:configserver:http://localhost:8091
-  application:
-    name: register
-  profiles:
-    active: local
   jpa:
     hibernate:
       ddl-auto: update
