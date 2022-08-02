@@ -9,8 +9,8 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
   mail:
     host: smtp.gmail.com
-    username: lakmaldasun2011@gmail.com
-    password:
+    username: ddstechnologyzone@gmail.com
+    password: owwxaftbhyzpiili
     port: 587
     properties:
       mail:
@@ -26,10 +26,10 @@ server:
   port: 9000
 planet:
   mail:
-    sender:
-    senderName:
-    subject:
-  context:
+    sender: ddstechnologyzone@gmail.com
+    senderName: PLANET WEB
+    subject: Registration Verification Code
+  context: context
 eureka:
   instance:
     prefer-ip-address: true
