@@ -29,7 +29,7 @@ planet:
     sender: ddstechnologyzone@gmail.com
     senderName: PLANET WEB
     subject: Registration Verification Code
-  context: api/v1/users/hashCodeVerify
+  context: /api/v1/users/hashCodeVerify/
 eureka:
   instance:
     prefer-ip-address: true
