@@ -3,5 +3,6 @@ info:
     name: Service Discovery
     description: Planet Web Service Discovery
     version: 1.0.0
+name: test
 
 
