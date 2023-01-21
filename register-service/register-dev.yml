@@ -5,7 +5,7 @@ spring:
       ddl-auto: update
   datasource:
     url: jdbc:mysql://80.211.143.200:3307/planet_web_registration?createDatabaseIfNotExist=true
-    username: root
+    username: admin
     password: root
     driver-class-name: com.mysql.jdbc.Driver
   mail:
