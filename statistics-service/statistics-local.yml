@@ -3,7 +3,7 @@ server:
 spring:
   datasource:
     url: jdbc:mysql://80.211.143.200:3307/statistics_db?createDatabaseIfNotExist=true
-    username: root
+    username: admin
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
