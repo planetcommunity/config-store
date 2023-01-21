@@ -1,1 +1,46 @@
 
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://80.211.143.200:3307/planet_web_registration?createDatabaseIfNotExist=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  mail:
+    host: smtp.gmail.com
+    username: ddstechnologyzone@gmail.com
+    password: owwxaftbhyzpiili
+    port: 587
+    properties:
+      mail:
+        debug: true
+        transport:
+          protocol: smtp
+        smtp:
+          starttls:
+            enable: true
+          timeout: 5000
+          auth: true
+server:
+  port: 9000
+planet:
+  mail:
+    sender: ddstechnologyzone@gmail.com
+    senderName: PLANET WEB
+    subject: Registration Verification Code
+  context: /api/v1/users/hashCodeVerify/
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+info:
+  app:
+    name: Registration Service
+    description: planet web registration service
+    version: 1.0.0
