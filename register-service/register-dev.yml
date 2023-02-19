@@ -44,3 +44,12 @@ info:
     name: Registration Service
     description: planet web registration service
     version: 1.0.0
+keycloak:
+  cors: true
+  auth-server-url: http://localhost:8080
+  realm: master
+  resource: edcs-user-auth
+  ssl-required: none
+  public-client: true
+  credentials.secret: e8c23e03-dfc9-448d-9ae8-5f2780aee9a0
+  client_id: planet-client
