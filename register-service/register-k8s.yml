@@ -23,7 +23,7 @@ spring:
           timeout: 5000
           auth: true
 server:
-  port: 9000
+  port: 9001
 planet:
   mail:
     sender: planets@planets.community
