@@ -22,7 +22,7 @@ keycloak:
   resource: edcs-user-auth
   ssl-required: none
   public-client: true
-  credentials.secret: e8c23e03-dfc9-448d-9ae8-5f2780aee9a0
+  credentials.secret: 348c0f3f-49cb-4cd4-8d3a-978ef43b437e
   security-constraints[0]:
     authRoles[0]: default-roles-edcs
 management:
