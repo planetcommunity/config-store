@@ -3,9 +3,9 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:mysql://80.211.143.200:3307/planet_web_registration?createDatabaseIfNotExist=true
-    username: planet
-    password: planet
+    url: jdbc:mysql://localhost:3306/planet_web_registration?createDatabaseIfNotExist=true
+    username: root
+    password: root
     driver-class-name: com.mysql.jdbc.Driver
   mail:
     host: smtps.aruba.it
