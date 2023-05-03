@@ -30,7 +30,7 @@ server:
   port: 9000
 planet:
   mail:
-    sender: ddstechnologyzone@gmail.com
+    sender: planets@planets.community
     senderName: PLANET WEB
     subject: Registration Verification Code
   context: /api/v1/users/hashCodeVerify/
