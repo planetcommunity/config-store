@@ -4,7 +4,7 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:mysql://mysql-server:3307/planet_web_registration?createDatabaseIfNotExist=true
+    url: jdbc:mysql://mysql-server:3306/planet_web_registration?createDatabaseIfNotExist=true
     username: admin
     password: root
     driver-class-name: com.mysql.jdbc.Driver
