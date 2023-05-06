@@ -28,10 +28,10 @@ spring:
             class: javax.net.ssl.SSLSocketFactory
             fallback: false
 server:
-  port: 9000
+  port: 9001
 planet:
   mail:
-    sender: ddstechnologyzone@gmail.com
+    sender: planets@planets.community
     senderName: PLANET WEB
     subject: Registration Verification Code
   context: /api/v1/users/hashCodeVerify/
