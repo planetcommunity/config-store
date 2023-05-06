@@ -4,7 +4,7 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:mysql://80.211.143.200:3307/planet_web_registration?createDatabaseIfNotExist=true
+    url: jdbc:mysql://mysql-server:3307/planet_web_registration?createDatabaseIfNotExist=true
     username: admin
     password: root
     driver-class-name: com.mysql.jdbc.Driver
@@ -48,15 +48,3 @@ info:
     name: Registration Service
     description: planet web registration service
     version: 1.0.0
-keycloak:
-  cors: true
-  auth-server-url: http://localhost:8080
-  realm: master
-  resource: edcs-user-auth
-  ssl-required: none
-  public-client: true
-  credentials.secret: 348c0f3f-49cb-4cd4-8d3a-978ef43b437e
-  client_id: planet-client
-  adminuser: user
-  adminpassword: 123456
-  grant_type: password
