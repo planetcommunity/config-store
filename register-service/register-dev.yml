@@ -5,8 +5,8 @@ spring:
       ddl-auto: update
   datasource:
     url: jdbc:mysql://mysql-server:3306/planet_web_registration?createDatabaseIfNotExist=true
-    username: admin
-    password: root
+    username: planet
+    password: plnaet
     driver-class-name: com.mysql.cj.jdbc.Driver
   mail:
     host: smtps.aruba.it
