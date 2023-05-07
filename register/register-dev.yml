@@ -1,0 +1,49 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://mysql-server:3306/planet_web_registration?createDatabaseIfNotExist=true
+    username: admin
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  mail:
+    host: smtps.aruba.it
+    username: planets@planets.community
+    password: GoodPlanet2023!!
+    port: 465
+    properties:
+      mail:
+        debug: true
+        transport:
+          protocol: smtp
+        smtp:
+          starttls:
+            enable: true
+          timeout: 5000
+          auth: true
+          socketFactory:
+            port: 465
+            class: javax.net.ssl.SSLSocketFactory
+            fallback: false
+server:
+  port: 9001
+planet:
+  mail:
+    sender: planets@planets.community
+    senderName: PLANET WEB
+    subject: Registration Verification Code
+  context: /api/v1/users/hashCodeVerify/
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+info:
+  app:
+    name: Registration Service
+    description: planet web registration service
+    version: 1.0.0
