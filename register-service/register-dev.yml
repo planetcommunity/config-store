@@ -7,7 +7,7 @@ spring:
     url: jdbc:mysql://localhost:3306/planet_web_registration?createDatabaseIfNotExist=true
     username: admin
     password: root
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
   mail:
     host: smtps.aruba.it
     username: planets@planets.community
